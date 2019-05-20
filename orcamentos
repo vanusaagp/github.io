@@ -1,0 +1,428 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav-icon.jpg">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Solicite um Orçamento</title>
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body class="blog-page">	
+			  <header id="header" id="home">
+		  		<div class="header-top">
+		  			<div class="row">
+				  			
+				  			<div class="coluna col-lg-11 col-sm-8 col-10 header-top-right no-padding">
+				  				<a href=""><i class="fas fa-phone mr-2"></i>(22) 2725-8554</a>
+				  				<a href=""><i class="topemail fas fa-envelope mr-2"></i></i>vanusaagpcontabilidade@gmail.com</a>
+								<a href=""><i class="local fas fa-map-marker-alt mr-2"></i>Rua Rossine Quintanilha chagas Nº170 Casa 55</a>
+				
+				  			</div>
+							
+							
+							
+				  	</div>
+				</div>
+			    <div class="container main-menu">
+			    	<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+				      </div>
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li class="menu-active"><a href="index.html">Pagina Principal</a></li>
+				          <li><a href="about.html">Quem Somos</a></li>
+				          <li><a href="#">Serviços</a>
+						  	<ul>
+				              <li><a href="abertura-de-empresa.html">Abertura de Empresa</a></li>
+				              <li><a href="domestica.html">Doméstica</a></li>
+							   <li><a href="imposto-de-renda.html">Imposto de Renda</a></li>
+							   <li><a href="mais-servicos.html">Mais Serviços</a></li>
+				            </ul>
+							</li>
+				          <li><a href="links-uteis.html">Links Úteis</a></li>
+				          <li><a href="orcamentos.html">Orçamentos</a>
+				          </li>						          
+			             				          
+				          <li><a href="contact.html">Fale Conosco</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->		    		
+			    	</div>
+			    </div>
+			  </header><!-- #header -->
+
+			<!-- start banner Area -->
+			<section class="banner-area relative" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								 ORÇAMENTOS		
+							</h1>	
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span><a href="blog-home.html">Blog </a> <span class="lnr lnr-arrow-right"></span> <a href="blog-single.html"> Blog Details Page</a></p>
+						</div>	
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->					  
+			
+			
+			<!-- Start orçamentos Area -->
+			
+			
+		<div class="row justify-content-center mb-5">
+		 
+		 
+		 
+		  <div class="col-sm-12 col-md-10 col-lg-8">
+		  
+		  
+			
+                <form class="mt-5" name="contactform" method="post" action="sendmail.php"> 
+						             
+                   <p class="negrito font-weight-bold">Dados para Contato</p>
+				   
+                   <div class="form-group col-lg-4">
+                    <label for="nome">Nome</label>
+                     <input type="text" class="form-control" id="nome" placeholder="" name="nome">
+                   </div>
+				   				   
+                   <div class="form-group col-lg-4">
+                    <label for="contato">Contato</label>
+                     <input type="text" class="form-control" id="contato" placeholder="" name="contato">
+                   </div>
+				   
+				   	<div class="form-group was-validated col-lg-4">					
+                     <label for="email">E-mail</label>
+					  <input type="text" class="form-control" id="email"  placeholder="" name="email">
+                       <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+				    </div>
+					
+					<p class="negrito font-weight-bold">Dados Cadastrais</p>
+				  
+				   <div class="form-group col-lg-4">
+                    <label for="empresa">Empresa</label>
+                     <input type="text" class="form-control" id="empresa" placeholder="" name="empresa">
+                   </div>
+				   
+				   <div class="form-group col-lg-4">
+                    <label for="cnpj">CNPJ</label>
+                     <input type="text" class="form-control" id="cnpj" placeholder="" name="cnpj">
+                   </div>
+				   
+				   <div class="form-group col-lg-4">
+                    <label for="endereco">Endereço</label>
+                     <input type="text" class="form-control" id="endereco" placeholder="" name="endereco">
+                   </div>
+				   
+				   <div class="form-group col-lg-4">
+                    <label for="numero">Número / Complemento</label>
+                     <input type="text" class="form-control" id="numero" placeholder="" name="numero">
+                   </div>
+				   
+
+				   
+				   <div class="form-group col-4">
+                    <label for="bairro">Bairro</label>
+                     <input type="text" class="form-control" id="bairro" placeholder="" name="bairro">
+                   </div>
+				   
+				   <div class="form-group col-4">
+                    <label for="uf">UF</label>
+                     <input type="text" class="form-control" id="UF" placeholder="" name="uf">
+                   </div>
+				   
+				   <div class="form-group col-lg-4">
+                    <label for="cep">Cep</label>
+                     <input type="text" class="form-control" id="cep" placeholder="" name="cep">
+                   </div>
+				   
+				   <p class="negrito font-weight-bold">Dados Específicos</p>
+				   
+				   <p class="i font-italic mt-4">Ramo(s) de Atividade</p>
+				   
+				   <div class="form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="servico" name="servico">
+                     <label class="form-check-label" for="servico">
+                      Serviço
+                     </label>
+                   </div>
+				   
+				   <div class="form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="Comercio" name="comercio">
+                     <label class="form-check-label" for="Comercio">
+                      Comércio
+                     </label>
+                   </div>
+				   
+				   <div class="form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="industria" name="industria">
+                     <label class="form-check-label" for="industria">
+                      Industria
+                     </label>
+                   </div>
+				   
+				   <div class="form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="associacao" name="associacao">
+                     <label class="form-check-label" for="associacao">
+                      Associação
+                     </label>
+                   </div>
+				   
+				   <p class="i font-italic mt-4">Constituição</p>
+				   
+				   <div class="form-row align-items-center ">
+				   
+				    <div class="col-auto my-1">
+                     <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preferência</label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                       <option selected>Escolher</option>					   
+					   <option value="1">Sociedade Anônima</option>
+                       <option value="2">Limitada</option>
+                       <option value="3">Sociedade Simples</option>
+		               <option value="4">Associação</option>
+                      </select>
+	                </div>
+	               </div>
+				   
+				   <p class="font-italic mt-4">Tributação</p>
+				   
+				   <div class="form-row align-items-center mt-3">
+				   
+                    <div class="col-auto my-1">
+                     <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preferência</label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                       <option selected>Escolher</option>
+					   <option value="1">Lucro Real</option>
+                       <option value="2">Lucro presumido</option>
+                       <option value="3">Simples</option>
+                       <option value="4">Imune ou Isenta</option>
+		              </select>
+	                </div>
+	               </div>
+				   
+				   
+				   
+                   <p class="i font-italic mt-4">Serviços Desajados</p>
+				   
+				   <div class="form-check-inline ">
+                    <input class="form-check-input" type="checkbox" value="" id="abertura"  name="abertura">
+                     <label class="form-check-label" for="abertura">
+                      Abertura de Empresa
+                     </label>
+                   </div>
+				   
+				   <div class="form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="alteracao" name="alteracao">
+                     <label class="form-check-label" for="alteracao">
+                      Alteração
+                     </label>
+                   </div>
+   	                
+					<div class="form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="encerramento" name="encerramento">
+                     <label class="form-check-label" for="encerramento">
+                      Encerramento
+                     </label>
+                   </div>
+				   
+				   <div class="form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="certidoes" name="certidao">
+                     <label class="form-check-label" for="certidoes">
+                      Certidões
+                     </label>
+                   </div>
+				   
+				   <div class="form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="escrita" name="escrita">
+                     <label class="form-check-label" for="escrita">
+                      Escrita Fiscal
+                     </label>
+                   </div>
+				   
+				   <div class="form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="folha" name="folha">
+                     <label class="form-check-label" for="folha">
+                      Folha de Pagamento
+                     </label>
+                   </div>
+				   
+				   <div class="form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="outros" name="outros">
+                     <label class="form-check-label" for="outros">
+                      Outros
+                     </label>
+                   </div>
+				   
+				   
+				   <p class="i font-italic mt-4">Como Conheceu Nosso Site:</p>
+				   
+				   <div class="form-row align-items-center mt-4">
+                    <div class="col-auto my-1">
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                       <option selected>Escolher</option>
+					   <option value="1">Contato pessoal</option>
+                       <option value="2">Indicação</option>
+                       <option value="3">internet</option>
+                       <option value="4">Redes Sociais</option>
+					   <option value="5">Outros</option>
+		              </select>
+	                </div>
+	               </div> 
+				     			
+
+  
+				   <div class="form-group col-lg-5 mt-4">
+				    
+                    <label class="i font-italic" for="informacoes">Mais Informações</label>
+                     <textarea class="form-control" id="informacoes" rows="3" name="mais"></textarea>
+                     </div>
+				   				  
+                   <button type="submit" class="btn btn-primary ml-3">Enviar</button>
+				   
+                </form>
+         </div>
+		 
+		</div>
+			<!-- End Orçamentos -->
+			
+			<!-- start footer Area -->		
+			<footer class="page-footer font-small unique-color-dark">
+
+  <div style="background-color: #222222;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+       
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">VANUSA AGP CONTABILIDADE</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Nossos conhecimentos transformam suas dúvidas em respostas, e suas indecisões em decisões, sempre com um objetivo: oferecer soluções para o seu negócio!</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Menu -->
+        <h6 class="text-uppercase font-weight-bold">MENU</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="index.html">Principal</a>
+        </p>
+        <p>
+          <a href="about.html">Quem Somos</a>
+        </p>
+        <p>
+          <a href="orcamentos.html">Orçamentos</a>
+        </p>
+        <p>
+          <a href="contact.html">Fale Conosco</a>
+        </p>
+
+      </div>
+	  
+	  <!-- End Menu -->
+      
+
+      <!-- Links -->
+                              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+       
+                                <h6 class="text-uppercase font-weight-bold ml-3">LINKS ÚTEIS</h6>
+                                   
+       
+					                 <a class="nav-link mt-4 " href="https://www.receita.fazenda.gov.br/">Receita Federal</a>
+                                      <a class="nav-link" href="http://www.previdenciasocial.gov.br/">Previdência Social</a>
+                                       <a class="nav-link " href="http://www.pgfn.fazenda.gov.br/">PGF</a>
+                                        <a class="nav-link " href="http://www.caixa.gov.br">Caixa Econômica</a>
+
+                               </div>
+     <!-- End Links -->
+      
+
+      <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4">
+
+        
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="end fas fa-home mr-1 fa-2x"></i> Rua Rossine Quintanilha Chagas Nº170 Casa 55</p>
+        <p>
+          <i class="email fas fa-envelope mr-1 fa-2x"></i> vanusaagpcontabilidade@gmail.com</p>
+        <p>
+          <i class="telefone fas fa-phone-square mr-1 fa-2x"></i> (22) 2725-8554 <i class="whats fab fa-whatsapp-square ml-3 fa-2x"></i> (22) 99904-7824</p>
+        
+
+      </div>
+  
+
+    </div>
+
+
+  </div>
+
+
+</footer>
+			<!-- End footer Area -->	
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/mn-accordion.js"></script>
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>						
+			<script src="js/jquery.nice-select.min.js"></script>	
+    		<script src="js/jquery.circlechart.js"></script>								
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
